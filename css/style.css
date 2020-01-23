@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
+h1,h2,h3,h4,h5,h6,p,span
+     {
+         font-family: 'Roboto Condensed', sans-serif;
+     }
+*,html
+{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}  
+a
+{
+	text-decoration: none;
+}  
+ul,ol
+{
+	list-style: none;
+} 
+     /*----------------header-area start-----------*/
+section#header-area 
+{
+    background: #e3e3e3;
+    width: 100%;
+    position: fixed;
+    z-index: 1; 
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+    margin: 0;
+    padding: 20px 0;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	padding: 0!important;
+	color: #4e4e4e;
+	transition: all linear 0.3s; 
+	font-family:'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+ #header-area ul li a:hover ,#header-area ul li .active:active
+{
+	color:#1abb9c;
+}
+.navbar-light .navbar-brand
+{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #4e4e4e;
+}
+
+#header-area li.nav-item 
+{
+    margin-left: 22px;
+}
+/*----------------header-area end-----------*/
+/*----------------banner-area start-----------*/
+
+#banner-area
+{
+	background-image: url(../images/banner-bg.png);
+	height: 550px;
+}
+#banner-area .content 
+{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+#banner-area .content h1
+{
+   color: #f3f3f3;
+   font-weight: 700;
+   font-size: 42px;
+   font-family: robotoslab,sans-serif;
+}
+#banner-area .content h2
+{
+   color: #a8a8a8;
+   font-weight: 700;
+   font-size: 32px;
+   font-family: robotoslab,sans-serif;
+   padding: 45px 0;
+}
+#banner-area .content a 
+{
+	background: #3f8dbf;
+	color:#f3f3f3;
+    padding: 20px 25px;
+    margin-top: 19px;
+    box-shadow: 0 5px 0px 0 #3678a3;
+    border-radius: 3px;
+}
+/*----------------banner-area end-----------*/
+/*----------------contentarea-area end-----------*/
+
+ .bgcolour 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.imgcenter
+{
+	position: absolute;
+}
+#contentarea h3
+{
+	padding: 28px 0 22px 0;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+#contentarea p
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #6a6a6a;
+	text-align: center;
+}
+#contentarea .effect::after
+{
+	content: '';
+	background: #e3e3e3;
+	display: block;
+	height: 2px;
+	width: 100%;
+}
+/*----------------contentarea-area end-----------*/
+/*----------------works-area start-----------*/
+
+#works-area h1
+{
+	padding-top: 60px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 24px;
+}
+#works-area span
+{
+	font-size: 13px;
+	font-weight: 600;
+	color:#715e50;
+
+}
+#works-area h4
+{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 26px 0 15px 0;
+	margin-bottom: 0!important;
+}
+#works-area p
+{
+	font-size: 14px;
+	font-weight: 400;
+	padding: 15px 0 60px 0;
+	margin-bottom: 0!important;
+}
+/*----------------works-area end-----------*/
+/*----------------testimoni-area end-----------*/
+
+blockquote::before 
+{
+    content: '\94';
+    font-size: 50px;
+    color: #dcdcdc;
+    position: relative;
+    line-height: 10px;
+    bottom: -1px;
+    left: 320px;
+}
+section#testimonial-area
+{
+    background: #efefef;
+    padding: 40px;
+}
+section#testimonial-area h6
+{
+	margin-bottom: 0!important;
+	font-size: 20px;
+	font-weight: 400;
+	color: #b5b5b5; 
+}
+/*----------------testimoni-area end-----------*/
+/*----------------footer-area end-----------*/
+#footer-area
+{
+	background-image: url(../images/footerbg.png);
+}
+
+#footer-area h1
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #6c6c6c;
+	padding-top: 50px;
+}#footer-area p
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+}
+#footer-area i
+{
+	color: #a89574;
+}
+#footer-area .effect::after
+{
+	content: '';
+	background: #e3e3e3;
+	display: block;
+	height: 1px;
+	width: 100%;
+}
+#footer-area .effect
+{
+	padding: 40px 0 80px 0;
+}
+#footer-area p.p-30 
+{
+    position: relative;
+    bottom: 40px;
+}
+/*----------------footer-area end-----------*/
+
+
+
+
+@media screen and (max-width: 574.98px)
+{
+	#banner-area
+	{
+	height:600px;
+	}
+}
